@@ -1,4 +1,4 @@
-# rickdiculouslyEasy1 - Vulnhub
+# RickdiculouslyEasy1 - Vulnhub
 ---
 
 ## ⚠️ Disclaimer
