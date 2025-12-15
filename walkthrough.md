@@ -41,3 +41,23 @@ On boot, the VM showed an EFI/GRUB menu instead of a login screen.
 * Disable Enable EFI
 * Disable Secure Boot
 * Boot Order → Hard Disk first
+
+# 🚫 Login Attempts (Intentional Failure) 
+`After boot:`
+```
+Fedora 26 (Server Edition)
+localhost login:
+```
+`Tried standard credentials:`
+```
+root / password
+rick / rick
+morty / morty
+```
+➡️ Result: Login always failed.
+
+> Insight
+
+* Console & Cockpit logins are intentionally blocked
+* Web page showing root / password is misdirection
+* Real entry point is boot-level access
