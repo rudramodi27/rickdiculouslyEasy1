@@ -100,7 +100,7 @@ chroot /sysroot
 ```
 **Verification:**
 - `whoami`
-- **output**
+**Output**
 - `root`
 # 🚩 Flag Enumeration
 ```
