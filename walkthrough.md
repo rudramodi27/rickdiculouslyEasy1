@@ -79,7 +79,7 @@ Fedora (4.11.8-300.fc26.x86_64)
 linux16 /vmlinuz-4.11.8-300.fc26.x86_64 ...
 `
 
-- > Append before LANG=:
+**Append before `LANG=`:**
 ```
 rd.break
 ```
