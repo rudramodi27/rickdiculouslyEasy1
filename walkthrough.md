@@ -115,10 +115,10 @@ find / -type f -iname "*flag*" 2>/dev/null
 - ( Man pages, .so files, and NotAFlag.txt were noise )
 
 # 🏁 Flag Collection
-```
-* cat /root/FLAG.txt
-* cat /var/ftp/FLAG.txt
-* cat /var/www/html/passwords/FLAG.txt
-* cat /home/Summer/FLAG.txt
-```
+
+* `cat /root/FLAG.txt`
+* `cat /var/ftp/FLAG.txt`
+* `cat /var/www/html/passwords/FLAG.txt`
+* `cat /home/Summer/FLAG.txt`
+  
 > /home/Summer/FLAG.txt contained an ASCII-art flag, which is valid.
