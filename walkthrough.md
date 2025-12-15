@@ -111,4 +111,14 @@ find / -type f -iname "*flag*" 2>/dev/null
 | `/var/ftp/FLAG.txt`                | FTP service flag  |
 | `/var/www/html/passwords/FLAG.txt` | Web/password flag |
 | `/home/Summer/FLAG.txt`            | ASCII art flag    |
-( Man pages, .so files, and NotAFlag.txt were noise )
+
+- ( Man pages, .so files, and NotAFlag.txt were noise )
+
+# 🏁 Flag Collection
+```
+* cat /root/FLAG.txt
+* cat /var/ftp/FLAG.txt
+* cat /var/www/html/passwords/FLAG.txt
+* cat /home/Summer/FLAG.txt
+```
+> /home/Summer/FLAG.txt contained an ASCII-art flag, which is valid.
