@@ -85,6 +85,7 @@ rd.break
 ```
 **Final Example:**
 > ... rhgb quiet rd.break LANG=en_AU.UTF-8
+
 **Step 3**: Boot into Emergency Shell
 ```
 Ctrl + X
