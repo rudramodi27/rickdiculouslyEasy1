@@ -30,18 +30,12 @@ All ports filtered. No usable network services.
 # 🖥️ Boot Issue Analysis
 On boot, the VM showed an EFI/GRUB menu instead of a login screen.
 # Root Cause
-*Rickdiculously is a legacy Linux VM
-
-*VirtualBox had EFI + Secure Boot enabled
-
-*Fedora failed to boot correctly
-
+* Rickdiculously is a legacy Linux VM
+* VirtualBox had EFI + Secure Boot enabled
+* Fedora failed to boot correctly
 **Fix**
-
 VirtualBox → Settings → System → Motherboard:
 
-*Disable Enable EFI
-
-*Disable Secure Boot
-
-*Boot Order → Hard Disk first
+* Disable Enable EFI
+* Disable Secure Boot
+* Boot Order → Hard Disk first
