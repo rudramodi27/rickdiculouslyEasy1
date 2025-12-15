@@ -35,7 +35,8 @@ On boot, the VM showed an EFI/GRUB menu instead of a login screen.
 * Fedora failed to boot correctly
 
 - **Fix**
-VirtualBox → Settings → System → Motherboard:
+  
+> VirtualBox → Settings → System → Motherboard:
 
 * Disable Enable EFI
 * Disable Secure Boot
