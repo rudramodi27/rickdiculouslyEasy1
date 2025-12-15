@@ -59,7 +59,7 @@ morty / morty
 > Insight
 
 * Console & Cockpit logins are intentionally blocked
-* Web page showing root / password is misdirection
+* Web page showing `root / password` is misdirection
 * Real entry point is boot-level access
 # 🔓 Privilege Escalation via GRUB (Key Exploit)
 **Step 1**: Enter GRUB Menu
