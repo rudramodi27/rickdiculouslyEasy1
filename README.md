@@ -1,5 +1,11 @@
 # rickdiculouslyEasy1 - Vulnhub
+---
 
+## ⚠️ Disclaimer
+This repository is for **educational purposes only**.  
+The walkthrough is intended to demonstrate learning outcomes related to Linux internals and CTF-style problem solving.
+
+---
 ## 📌 Overview
 This repository documents my solution approach for the **Rickdiculously** VulnHub machine.
 
@@ -34,13 +40,7 @@ A **detailed, step-by-step walkthrough** is maintained separately .
 
 *(The walkthrough includes exact commands, reasoning, and screenshots where applicable.)*
 
----
 
-## ⚠️ Disclaimer
-This repository is for **educational purposes only**.  
-The walkthrough is intended to demonstrate learning outcomes related to Linux internals and CTF-style problem solving.
-
----
 
 ## 📜 License
 This project is licensed under the **MIT License**.
