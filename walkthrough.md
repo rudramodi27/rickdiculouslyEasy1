@@ -97,9 +97,9 @@ mount -o remount,rw /sysroot
 chroot /sysroot
 ```
 **Verification:**
-`whoami`
-**output**
-`root`
+- `whoami`
+- **output**
+- `root`
 # 🚩 Flag Enumeration
 ```
 find / -type f -iname "*flag*" 2>/dev/null
