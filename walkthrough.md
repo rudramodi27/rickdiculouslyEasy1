@@ -24,6 +24,24 @@ nmap -sn 192.168.194.0/24
 ```
 nmap -sS -A -p- 192.168.194.4
 ```
-*Result:*
+**Result:**
 All ports filtered. No usable network services.
-➡️ This confirmed the machine is not intended for network/web exploitation
+➡️ This confirmed the machine is not intended for network/web exploitation.
+# 🖥️ Boot Issue Analysis
+On boot, the VM showed an EFI/GRUB menu instead of a login screen.
+# Root Cause
+*Rickdiculously is a legacy Linux VM
+
+*VirtualBox had EFI + Secure Boot enabled
+
+*Fedora failed to boot correctly
+
+**Fix**
+
+VirtualBox → Settings → System → Motherboard:
+
+*Disable Enable EFI
+
+*Disable Secure Boot
+
+*Boot Order → Hard Disk first
