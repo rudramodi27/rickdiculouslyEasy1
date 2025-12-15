@@ -61,3 +61,33 @@ morty / morty
 * Console & Cockpit logins are intentionally blocked
 * Web page showing root / password is misdirection
 * Real entry point is boot-level access
+# 🔓 Privilege Escalation via GRUB (Key Exploit)
+**Step 1**: Enter GRUB Menu
+
+* Reboot VM
+* Press ESC / SHIFT repeatedly during boot
+
+> GRUB menu appears:
+```
+Fedora (4.11.8-300.fc26.x86_64)
+```
+**Step 2**: Edit Boot Parameters
+* Select first Fedora entry
+* Press e
+> Find the line starting with:
+`
+linux16 /vmlinuz-4.11.8-300.fc26.x86_64 ...
+`
+> Append before LANG=:
+```
+rd.break
+```
+**Final Example:**
+> ... rhgb quiet rd.break LANG=en_AU.UTF-8
+**Step 3**: Boot into Emergency Shell
+```
+Ctrl + X
+```
+* Ststem drops into:
+` switch_root:/#
+> ➡️ Root shell achieved without password
